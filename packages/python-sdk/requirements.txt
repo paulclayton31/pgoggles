@@ -1,0 +1,10 @@
+numpy>=1.24.0
+onnxruntime>=1.17.0
+opencv-python>=4.9.0
+Pillow>=10.0.0
+
+# Optional: required only for MultiObjectTracker's TrackingMode.FULL
+# (Hungarian assignment via scipy.optimize.linear_sum_assignment).
+# TrackingMode.DISABLED and TrackingMode.KALMAN_IOU need no extra
+# dependency. Install with: pip install pgoggles[tracking]
+# scipy>=1.11
